@@ -1,0 +1,37 @@
+{
+    "_version": "1.60.0",
+    "sap.app": {
+        "id": "ui5.databinding",
+        "type": "application",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "sourceTemplate": {
+            "id": "@sap/ux-app-migrator:freestyle",
+            "version": "1.14.4",
+            "toolsId": "6488b0cf-a43d-40d7-a7be-103a678aab34"
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "minUI5Version": "1.120.0",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.core": {}
+            }
+        },
+        "rootView": {
+            "viewName": "ui5.databinding.view.App",
+            "type": "XML",
+            "id": "app"
+        }
+    }
+}
