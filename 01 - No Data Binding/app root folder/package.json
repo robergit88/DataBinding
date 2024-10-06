@@ -5,8 +5,8 @@
   "author": "SAP SE",
   "description": "UI5 Demo App - Data Binding Tutorial",
   "devDependencies": {
-    "@ui5/cli": "^3.0.0",
     "@sap/ux-ui5-tooling": "1",
+    "@ui5/cli": "^3.11.3",
     "rimraf": "3.0.2"
   },
   "scripts": {
